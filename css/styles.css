@@ -191,5 +191,6 @@ main {
     }
     .designed-by > h3 {
         color: gray;
+        font-family: 'Courier New', Courier, monospace;
     }
 }
