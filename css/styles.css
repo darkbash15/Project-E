@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins');
+@import url("https://fonts.google.com/specimen/Montserrat");
+@import url("https://fonts.google.com/specimen/Fraunces");
+
+
+body {
+    background: rgb(246, 235, 226);
+}
+main {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.row0 {
+    border-radius: 8px;
+    width: 600px;
+    height: 420px;
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.row0 img {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 420px;
+    width: 300px;
+}
+#mobile-image {
+    display: none;
+}
+.col1 {
+    /* border: 2px solid black; */
+    margin-left: 15px;
+    width: 260px;
+}
+.col1 h4 {
+    letter-spacing: 5px;
+    color: gray;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+.col1 h1 {
+    width: 200px;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: Fraunces;
+}
+.col1 p {
+    width: 215px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: small;
+}
+.row1 {
+    /* border: 2px solid; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.row1 .col2 {
+    color: rgb(125, 185, 125);
+}
+.row1 .col3 h1 {
+    color: grey;
+    font-size: smaller;
+    text-decoration: line-through;
+    margin-left: -80px;
+    margin-top: 32px;
+}
+.add-to-cart {
+    border-radius: 8px;
+    background-color: rgb(66, 118, 66);
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.add-to-cart img {
+    margin-top: 20px;
+    margin-left: 68px;
+    height: 15px;
+    width: 20px;
+}
+.add-to-cart h5 {
+    font-family: sans-serif;
+    color: white;
+    margin-top: -18px;
+    margin-left: 100px;
+}
+.designed-by {
+    text-align: center;
+}
+.designed-by > h3 {
+    color: gray;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+.designed-by > p {
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:762px) {
+   body {
+        /* background: rgb(246, 235, 226); */
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        /* background-color: red; */
+    }
+    .row0 {
+
+        height: 90%;
+        /* background-color: blue; */
+        /* position: absolute; */
+        /* top: 0.25rem; */
+        width: 100%;
+        margin: 12px;
+        /* margin-top: 60px; */
+        display: flex;
+        flex-direction: column;
+        /* display: grid; */
+        /* grid-template-columns: 1fr; */
+    }
+    .row0 img {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 0;
+        /* width: 100%; */
+        /* height: 20em; */
+        /* height: ; */
+    }
+    .col1 h1 {
+        width: 300px;
+        margin: 0;
+    }
+    .col1 h4 {
+        margin: 10px;
+    }
+    .col1 p {
+        width: 270px;
+        word-spacing: normal;
+    }
+    .col1 {
+        /* background-color: brown; */
+        margin: auto;
+    }
+    .add-to-cart {
+        margin-top: 2em;
+    }
+    .add-to-cart img{
+        height: 15px;
+        width: 20px;
+    }
+    #mobile-image {
+        display: block;
+        width: 100%;
+        height: 15em;
+    }
+    #desktop-image {
+        display: none;
+    }
+    .row1 {
+        margin-top: 2em;
+        /* display: flex; */
+        width: 100%;
+    }
+    .col2 {
+        width: 7em;
+    }
+    .col3 {
+        display: flex;
+        align-items: center;
+        margin-left: 1em;
+    }
+    .row1 .col3  h1 {
+        margin: 0;
+        width: 3em;
+    }
+    .col1-wrapper {
+        display: flex;
+        margin: auto;
+        /* background-color: pink; */
+        /* align-items: center; */
+        justify-content: center;
+    }
+    
+}
