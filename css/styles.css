@@ -89,6 +89,23 @@ main {
     margin-top: -18px;
     margin-left: 100px;
 }
+.images {
+    text-align: center;
+    margin-top: 2em;
+}
+.edt-ass {
+    text-align: center;
+}
+.edt-ass > h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-size: 2em;
+}
+.edt-ass > h4 {
+    color: gray;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .designed-by {
     text-align: center;
 }
