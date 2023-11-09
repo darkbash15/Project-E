@@ -189,5 +189,7 @@ main {
         /* align-items: center; */
         justify-content: center;
     }
-    
+    .designed-by > h3 {
+        color: gray;
+    }
 }
